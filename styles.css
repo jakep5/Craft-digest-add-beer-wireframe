@@ -23,12 +23,19 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  text-align: right;
 }
 
-
+a.logOut {
+    margin-right: 2%;
+}
 
 header {
-  padding: 12% 0;
+  padding: .5% 0;
+}
+
+h1.addBeerTitle {
+    margin-top: 5%;
 }
 
 section {
@@ -37,7 +44,23 @@ section {
   background-color: #bbb;
 }
 
+section.addBeerSection {
+    overflow-y: auto;
+}
+
 section:nth-child(even) {
   background-color: #ddd;
+}
+
+form#beerSearchForm {
+    margin-top: -5%;
+}
+
+button.submitBeerForm {
+    position: relative;
+}
+
+h3.beerItem {
+    margin-top: 5%;
 }
   
